@@ -1,0 +1,108 @@
+{
+  "risk_categories": [
+    {
+      "id": "off_platform",
+      "name": "Off-Platform Communication/Payment",
+      "description": "Client asks to move the PRIMARY work discussion or PAYMENT outside the freelancing platform to a personal channel. NOTE: A company's own website, official careers page, or official HR phone number is NOT off-platform — these are standard for legitimate employers. Only flag when the primary contract, work communication, or payment moves to a personal channel.",
+      "examples": ["Contact me on Telegram", "Let's do payment via direct bank transfer", "WhatsApp me to discuss the work", "DM me on Instagram to start"],
+      "severity": "high",
+      "recommended_action": "Keep all communication and payment on the platform."
+    },
+    {
+      "id": "unpaid_work",
+      "name": "Unpaid / Free Work Request",
+      "description": "Client asks for sample work or a full project before hiring without payment.",
+      "examples": ["Complete this test project for free", "Do a sample first, we'll pay if selected"],
+      "severity": "high",
+      "recommended_action": "Do not begin unpaid work. Request a paid trial or contract first."
+    },
+    {
+      "id": "upfront_payment",
+      "name": "Upfront Payment Requested From Freelancer",
+      "description": "Client asks the freelancer to pay a fee, deposit, or training cost before starting.",
+      "examples": ["Pay $50 registration fee", "Send a security deposit first"],
+      "severity": "high",
+      "recommended_action": "Never pay a client. Legitimate clients do not charge freelancers."
+    },
+    {
+      "id": "sensitive_info",
+      "name": "Sensitive Information Request",
+      "description": "Client asks for personal or financial information before hiring.",
+      "examples": ["Send your CNIC", "Share your bank details", "Provide your passport number", "Enter your login credentials"],
+      "severity": "high",
+      "recommended_action": "Do not share personal or financial information with unverified clients."
+    },
+    {
+      "id": "suspicious_links",
+      "name": "Suspicious External Links",
+      "description": "Client shares shortened URLs (bit.ly, tinyurl), unverified or unknown domains, or links that request credentials or claim to 'verify' an account. NOTE: A company's OWN website or official careers page URL is NOT suspicious — this is normal. Only flag shortened, obfuscated, or credential-requesting links.",
+      "examples": ["Click this link to verify your account: bit.ly/xyz", "Register at this URL to unlock the job", "Login here to confirm your identity"],
+      "severity": "medium",
+      "recommended_action": "Do not click unknown links. Verify the domain first."
+    },
+    {
+      "id": "unrealistic_promises",
+      "name": "Unrealistic Promises",
+      "description": "Offer promises extremely high pay for very little work or no experience.",
+      "examples": ["$5000/week, no experience needed", "Earn $100 per hour easily", "Earn $3000/week from home"],
+      "severity": "high",
+      "recommended_action": "Be skeptical of offers that are too good to be true."
+    },
+    {
+      "id": "urgency_pressure",
+      "name": "Excessive Urgency / Pressure",
+      "description": "Client pressures you to act fast, often to bypass your normal checks.",
+      "examples": ["Need this done in 24 hours", "Only today, decide now", "Immediate hire!", "Only 5 spots left!"],
+      "severity": "medium",
+      "recommended_action": "Slow down. Legitimate clients allow reasonable time to decide."
+    },
+    {
+      "id": "vague_requirements",
+      "name": "Vague or Suspicious Job Requirements",
+      "description": "Job description lacks clear scope, deliverables, or payment terms.",
+      "examples": ["Do some tasks, we'll discuss pay later", "Simple work, details after hiring", "Just small changes"],
+      "severity": "medium",
+      "recommended_action": "Ask for a clear scope of work and payment terms in writing."
+    },
+    {
+      "id": "discriminatory_requirements",
+      "name": "Discriminatory or Restrictive Requirements",
+      "description": "Job imposes restrictions based on nationality, accent, citizenship, or other protected characteristics.",
+      "examples": ["Native English speakers only", "Western candidates preferred", "US/UK citizens only", "Must have neutral American accent"],
+      "severity": "medium",
+      "recommended_action": "Consider reporting. Such restrictions often violate platform policies."
+    },
+    {
+      "id": "experience_preference",
+      "name": "Suspicious Experience Preference",
+      "description": "Job specifies age-adjacent or cohort-based preferences that may indicate bias.",
+      "examples": ["Recent graduates preferred", "Young and energetic team", "Fresh talent only"],
+      "severity": "low",
+      "recommended_action": "Proceed, but be aware of potential age bias."
+    },
+    {
+      "id": "toxic_culture",
+      "name": "Toxic Work Culture Signals",
+      "description": "Job description uses aggressive, exploitative, or unhealthy language about team culture.",
+      "examples": ["ROCKSTAR NINJA developer", "Must be aggressive, dominant", "Brotherhood culture", "Work hard play hard"],
+      "severity": "medium",
+      "recommended_action": "Proceed with caution. Such language often predicts poor working conditions."
+    },
+    {
+      "id": "unrealistic_availability",
+      "name": "Unrealistic Availability Expectations",
+      "description": "Job demands availability that is unsustainable or unprofessional.",
+      "examples": ["Must work 24/7", "Available around the clock", "Always on-call without notice"],
+      "severity": "medium",
+      "recommended_action": "Negotiate clear working hours before accepting."
+    },
+    {
+      "id": "pay_mismatch",
+      "name": "Pay Mismatch for Scope/Experience",
+      "description": "Offered compensation is significantly below market for the required skills or experience.",
+      "examples": ["$12/hr for 6-8 years ML experience", "$100 for a full iOS + IoT project", "Senior role at junior pay"],
+      "severity": "medium",
+      "recommended_action": "Negotiate or decline. Underpriced work often leads to scope creep."
+    }
+  ]
+}

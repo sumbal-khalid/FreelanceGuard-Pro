@@ -1,0 +1,7 @@
+streamlit
+groq
+pydantic
+python-dotenv
+pandas
+fpdf
+Pillow
