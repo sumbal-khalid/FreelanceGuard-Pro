@@ -73,7 +73,7 @@ def extract_text_from_image(image_bytes: bytes) -> str:
             }
         ],
         temperature=0.0,
-        max_tokens=2000
+        max_tokens=700
     )
 
     extracted = response.choices[0].message.content.strip()
