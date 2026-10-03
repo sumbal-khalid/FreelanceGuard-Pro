@@ -56,7 +56,7 @@ Three-layer architecture: **Knowledge → Reasoning → Action**
 Prerequisites: Python 3.10+ and a free Groq API key from https://console.groq.com/keys
 
 ```bash
-git clone https://github.com/sumbal-khalid/FreelanceGuardPro.git
+git clone https://github.com/sumbal-khalid/FreelanceGuard-Pro.git
 cd FreelanceGuard
 py -m pip install -r requirements.txt
 echo GROQ_API_KEY=gsk_your_real_key_here > .env
